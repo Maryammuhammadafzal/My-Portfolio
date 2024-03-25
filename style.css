@@ -1,0 +1,267 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+}
+/* style the whole body */
+.container{
+width: 100%;
+}
+ /* style the navigation */
+.navigation{
+    float: left;
+    background-color:chocolate;
+    font-family: 'Times New Roman', Times, serif;
+    height: 800px;
+    width: 18%;
+    position: fixed;
+    border: 1px solid chocolate;
+    border-radius: 2px;
+}
+ /*style the profile image*/
+.profile-image{
+    height: 150px;
+    width: 170px;
+    border-radius: 50%;
+    border: 8px solid rgb(238, 165, 113);
+    margin: 8px;
+    padding:0px;
+    margin: 35% 17% ;
+    clip-path: circle(54%);
+   
+}
+ /*style the nav list*/
+.nav-list{
+    list-style-type: none;
+    line-height: 35px;
+    text-align: justify;
+}
+ /*style the nav item*/
+.nav-list-item{
+    text-decoration: none;
+    color: #cec6c653;
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+ /*hover on nav item*/
+.nav-list-item:hover{
+    color: #fff;
+}
+/*focus on nav item*/
+.nav-list-item:focus{
+    color: #fff;
+}
+/* style my personal info */
+.personal-info{
+    margin-left: 17em;
+    width: 80%;
+    height: 730px;
+    padding-top:250px;
+ }
+ /*style the name*/
+.name{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 70px;
+    padding-left: 30px;
+} 
+/* colour the second name */
+.name>span{
+    color: chocolate;
+}
+/* style the address  */
+.address{
+    font-family: monospace;
+    font-size: 20px;
+    color: rgb(139, 135, 135);
+    padding-left: 35px;
+}
+/* style the email */
+span>a{
+    color: chocolate;
+    text-decoration: underline;
+}
+/* style my about */
+.my-about{
+    padding-top: 70px;
+    padding-left: 40px;
+    line-height: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: lightgray;
+}
+/* style the icon */
+.icon{
+    margin-top: 5%;
+    margin-left: 5%;
+}
+/* style the github icon */
+.fa-github{
+    font-size:50px;
+    color:rgb(78, 76, 76);
+   
+}
+/* style the facebook icon */
+.fa-facebook{
+    font-size:50px;
+    color:rgb(78, 76, 76);
+}
+/* style the twitter icon */
+.fa-twitter{
+    font-size:32px;
+    background-color:rgb(78, 76, 76);
+    color: #fff; 
+    padding: 10px;
+    border-radius: 50%;
+}
+/* hover the twitter icon */
+.fa-twitter:hover{
+    background-color:chocolate ;
+}
+/* hover the facebook icon */
+.fa-facebook:hover{
+    color:chocolate ;
+}
+/* hover the github icon */
+.fa-github:hover{
+    color:chocolate ;
+}
+/* style the linkedIn icon */
+.fa-linkedin-in{
+    font-size:32px;
+    background-color:rgb(78, 76, 76);
+    color:#fff;
+    padding: 10px;
+    border-radius: 50%;
+}
+/* hover the twitter icon */
+.fa-linkedin-in:hover{
+    background-color: chocolate;
+}
+/* style the link of icon */
+.code-link{
+    margin-top: 20%;
+    padding-left: 3%;
+    
+}
+/*hover on icon link*/
+.code-link:hover{
+    cursor: pointer;
+}
+  /*style the horizontal line*/
+hr{
+    margin-top: 10em;
+    margin-left: -10em;
+}
+ /*style the experience section*/
+.experience{
+    margin-left: 19em;
+    margin-top: 7em;
+    width: 80%;
+    height: 1230px;
+}
+/*style the education section*/
+.education{
+    margin-left: 19em;
+    margin-top: 7em; 
+    width: 80%;
+    height: 550px;
+    margin-bottom: 80px;  
+}
+/*style the skill section*/
+.skills{
+    margin-left: 19em;
+    margin-top: 7em; 
+    width: 80%;
+    height: 550px;  
+}
+/*style the interest section*/
+.interest{
+    margin-top: 7em; 
+    width: 80%;
+    height: 550px;   
+}
+/*style the award section*/
+.awards{
+    margin-top: 7em; 
+    width: 80%;
+    height: 550px;  
+}
+/*style the heading of experience, education,skill,interest and award */  
+.ex-head,.ed-head,.sk-head,.in-head,.aw-head{
+    color: rgba(45, 43, 43, 0.89);
+    font-family: monospace;
+    font-size: 60px;
+    letter-spacing: -3px;
+}
+/* style the  experience education and skills parts */
+.ex-parts,.ed-parts,.sk-parts{
+    padding-top: 50px;
+}
+  /*style the experience, education and skill part 1*/
+.ex-part-1.ed-part-1,.sk-part-1{
+    width: 90%;
+    height: 300px;
+}
+/* style the experience and education part 1 heading */
+.ex-part-1>h3,.ed-part-1>h3{
+    margin-top: 20px;
+    font-family: monospace;
+    font-size: 35px;
+    color: rgb(83, 78, 78);
+}
+/*style the experience and education year*/
+.ex-year,.ed-year{
+    color: chocolate;
+    float: right;
+    font-size: 20px;
+    margin-right: 30px;
+}
+/* style the heading of experience, education,skill parts  */
+.ex-part-1>h5,.ed-part-1>h5,.sk-part-1>h5{
+    letter-spacing: -1px;
+    padding-top: 7px;
+    font-family: monospace;
+    font-size: 20px;
+    color: rgba(167, 162, 162, 0.651);
+}
+/* style the code code-editor-img in skills */
+.sk-part-1 .fa-brands{
+ padding: 2%;
+ color: rgb(78, 76, 76);
+}
+/* .code-editor-img{
+    width: 8%;
+    padding-top: 50px;
+    padding-left: 10px;
+} */
+/* style the paragraph of experience and education parts  */
+.ex-part-1>p,.ed-part-1>p,.in-para{
+    padding-top: 30px;
+    width: 80%;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    line-height: 25px;
+    color: rgba(117, 108, 108, 0.822);
+    margin-left: 15px;
+}
+/*style the check icon image*/
+.check-icon{
+    width: 15px;
+  display: inline-block;
+}
+/* style the list of skill section */
+.sk-part-1 ul{
+    list-style-type: none;
+    padding-top: 20px;  
+}
+/* style the list of award section */
+.aw-list{
+    list-style-type: none; 
+    padding-top: 20px;
+}
+/* style the awards image */
+.aw-img{
+    width: 20px;
+}
